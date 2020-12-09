@@ -1,10 +1,14 @@
-﻿using System;
+﻿/* 
+ COPY RIGHT @AUGMENTO LABS 2020
+Created By Vinayak
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SImple_Intrest
+namespace SimpleIntrest
 {
     class Program
     {
@@ -19,10 +23,10 @@ namespace SImple_Intrest
             year = Convert.ToInt16(Console.ReadLine());
             Console.Write("Enter the Rate Of Interest : ");
             rate = Convert.ToDouble(Console.ReadLine());
-            interest = CalculateSI.CalCulate(principleamt, year, rate);
+            interest = CalculateSi.Calculate(principleamt, year, rate);
             si_amount = interest;
 
-            Console.WriteLine("SImpleInterest Amount : {0}", si_amount);
+            Console.WriteLine("SimpleIntrest Amount : {0}", si_amount);
             Console.ReadLine();
 
         }
